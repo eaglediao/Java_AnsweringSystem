@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.eaglediao.qa.domain.Question" table="question" schema="qasystem">
+        <id name="qid" column="qid"/>
+        <property name="content" column="content"/>
+        <property name="option" column="option"/>
+        <property name="answer" column="answer"/>
+        <property name="type" column="type"/>
+        <property name="score" column="score"/>
+    </class>
+</hibernate-mapping>
